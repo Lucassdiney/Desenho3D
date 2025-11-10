@@ -4,8 +4,9 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: #290000;
+    color: #fff;
     background-color: #493c3c;
+    background-image: url(assets/bg.jpg);
 }
 
 * {
@@ -83,13 +84,13 @@ header .css img {
     --left: 0px;
     background:
         var(--url) var(--left),
-        url('/assets/lata.png') 0 0;
+        url('assets/lata.png') 0 0;
     background-size: auto 100%;
     width: 280px;
     aspect-ratio: 2 / 4;
     background-blend-mode: multiply;
     transition: 0.8s;
-    mask-image: url('/assets/lata.png');
+    mask-image: url('assets/lata.png');
     mask-size: auto 100%;
 }
 
